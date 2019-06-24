@@ -82,4 +82,12 @@ def won?
   end
 end
 
+def full?
+  if (!@board.any?{|position| position == " "})
+    return true
+  else
+    return false
+  end
+end
+
 end
