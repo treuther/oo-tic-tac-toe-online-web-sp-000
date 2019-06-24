@@ -53,7 +53,12 @@ end
 
 def current_player
   num_of_turns = turn_count
+  if num_of_turns % 2 == 0
+    player = "X"
+  else
+    player = "O"
 end
+player
 
 def turn
   puts "Please enter 1-9:"
