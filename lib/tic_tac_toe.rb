@@ -59,6 +59,7 @@ def current_player
     player = "O"
 end
 player
+end
 
 def turn
   puts "Please enter 1-9:"
