@@ -52,11 +52,7 @@ def turn_count
 end
 
 def current_player
-  if turn_count.even? == true
-    return "X"
-  else
-    return "O"
-  end
+  num_of_turns = turn_count
 end
 
 def turn
