@@ -89,15 +89,15 @@ end
 
 def draw?
   if full? && !(won?)
-    return true
+    true
   else
-    return false
+    false
   end
 end
 
 def over?
   if full? || won?|| draw?
-    return true
+    true
   end
 end
 
