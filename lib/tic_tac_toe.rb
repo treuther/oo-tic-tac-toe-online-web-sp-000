@@ -51,6 +51,14 @@ def turn_count
   return counter
 end
 
+def current_player
+  if turn_count.even? == true
+    return "X"
+  else
+    return "O"
+  end
+end
+
 def turn
   puts "Please enter 1-9:"
   input = gets.strip
@@ -60,14 +68,6 @@ def turn
       display_board
     else
     turn
-  end
-end
-
-def current_player
-  if turn_count.even? == true
-    return "X"
-  else
-    return "O"
   end
 end
 
