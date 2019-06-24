@@ -81,9 +81,9 @@ end
 
 def full?
   if (!@board.any?{|position| position == " "})
-    return true
+    true
   else
-    return false
+    false
   end
 end
 
